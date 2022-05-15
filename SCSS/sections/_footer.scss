@@ -1,0 +1,92 @@
+@use'../custom'as*;
+
+
+section.footer {
+    background-color: $light;
+    position: relative;
+    font-family: "Poppins";
+    padding: 25px 0px;
+  }
+  .footer-content {
+    padding: 26px;
+    text-align: center;
+    color: white;
+    
+  }
+  
+
+  .footer-content p {
+    font-size: 12px;
+    font-weight: 100;
+    padding: 10px 0px;
+  }
+  ul.social-media {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  ul.social-media li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  ul.social-media li a {
+    color: white;
+    font-size: 26px;
+  }
+  ul.social-media li {
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    background-color: $primary;
+    line-height: 40px;
+    box-shadow: 0px 1px rgb(250, 114, 166);
+    box-shadow: 0 2px 10px -1px #8e0852,
+      0 0px 20px 0px #dba4a7;
+  }
+
+  ul.social-media li:hover{
+
+    background-color: #cd6ba1;
+  }
+
+ 
+  ul.bus-list {
+    padding: 0;
+    margin: 0;
+  }
+   
+  ul.bus-list li {
+    list-style-type: none;
+    margin-bottom: 5px;
+  }
+
+
+  // Grid column 
+  .mb-4 h6{
+    color: #8e0a50;
+  }
+
+
+
+  // Grid column links
+
+  .text {
+color: $primary;
+  }
+
+  .text:hover {
+    color: #8e0a50;
+      }
+
+
+
+.text-reset a{
+  color:#a14174;
+}
+
+.footer .mb-4 p{
+color:#8e0a50;
+}

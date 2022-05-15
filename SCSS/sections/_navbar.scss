@@ -1,0 +1,14 @@
+@use'../custom' as*;
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{color: white!important;}
+.nav-link{color: white!important;}
+.nav-link:hover{color: $primary!important;}
+
+.dropdown-menu{background-color: #9736636b;}
+.dropdown-item{color: rgb(255, 255, 255);}
+.dropdown-item:hover{color: rgb(243, 130, 187);}
+

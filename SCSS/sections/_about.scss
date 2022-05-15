@@ -1,0 +1,87 @@
+@use'../custom' as*;
+
+h1, h2, h3, h4, h5, p, a  {font-family: 'Montserrat', sans-serif;
+}
+.card-team img{
+    height: 150px;
+    width: 150px;
+}
+
+.card-body{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+.mt-5 h5{
+    color: rgb(170, 6, 74);  
+}
+
+
+
+
+.dummytext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #848590
+}
+
+
+
+
+
+
+
+
+
+
+.blink-text-menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  
+    li {
+      a {
+        position: relative;
+        display: flex;
+        padding: 6px;
+        color: rgb(170, 48, 115);
+        font-family: Lato, sans-serif;
+        text-decoration: none;
+  
+        span {
+          position: relative;
+          overflow: hidden;
+          transition: 0.6s;
+  
+          .out {
+            display: inline-flex;
+          }
+  
+          .in {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            transform: translateX(100%);
+          }
+        }
+  
+        &:hover {
+          span {
+            .out {
+              opacity: 0;
+              transform: translateX(-100%);
+            }
+  
+            .in {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+        }
+      }
+    }
+  }
+  

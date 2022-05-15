@@ -1,0 +1,28 @@
+@use'../custom' as*;
+
+.d-md-block img{
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    }
+    
+.col-md-4-contact{
+    height: 500px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    }
+
+
+
+    .salon {
+        
+        height: 200px;
+       
+      }
+    
+
+ h2 ,h3, h4, h5, h6 {
+    color: $primary;
+}

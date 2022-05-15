@@ -1,0 +1,77 @@
+body{
+   position: relative;
+   background-size: cover;
+    background-image: url(images/abstract.jpg);
+}
+h2{
+    background;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+    }
+    hr{
+    margin: 50px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 40px;
+    }
+    div.container{
+    width: 900px;
+    height: 610px;
+    
+    font-family: 'Raleway', sans-serif;
+    }
+    div.main{
+    align-items: center;
+    width: 500px;
+    padding: 10px 50px 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+    float:left;
+    margin-top:50px;
+   
+    }
+    input[type=text],input[type=password]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    color: #fb0075;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+    label{
+    color: #cf0c5d;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    }
+    center{
+    font-size:32px;
+    }
+    .note{
+    color:rgb(255, 0, 123);
+    }
+    .valid{
+    color:rgb(144, 19, 57);
+    }
+    
+    input[type=button]{
+    font-size: 16px;
+    background-color: rgb(17, 1, 8);
+   
+    color: #ffffff;
+    font-weight: bold;
+   
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 0;
+    outline:none;
+    }
+    input[type=button]:hover{
+    background-color: rgb(47, 40, 45) ;
+    }
